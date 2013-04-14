@@ -12,7 +12,7 @@ def _logresult(result):
 
 @route('/')
 def show_and_log_mood():
-    url = 'http://admin.webworks.se/pythoncourse/eurovision'
+    url = 'http://pythoncourse.webworks.se/eurovision'
     try:
         connection = urllib.urlopen(url)
         result = connection.read()

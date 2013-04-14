@@ -4,7 +4,7 @@
 import urllib
 from datetime import datetime
 
-url = 'http://admin.webworks.se/pythoncourse/eurovision'
+url = 'http://pythoncourse.webworks.se/eurovision'
 
 def handleresult(result):
     print result

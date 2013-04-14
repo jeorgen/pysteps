@@ -2,7 +2,7 @@
 # Adding file logging
 import urllib
 
-connection = urllib.urlopen('http://admin.webworks.se/pythoncourse/eurovision')
+connection = urllib.urlopen('http://pythoncourse.webworks.se/eurovision')
 
 result = connection.read()
 

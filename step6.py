@@ -21,7 +21,7 @@ def print_and_log_mood(url):
         
         
 if __name__ == "__main__":
-    url = 'http://admin.webworks.se/pythoncourse/eurovision'
+    url = 'http://pythoncourse.webworks.se/eurovision'
     print_and_log_mood(url)
 
 

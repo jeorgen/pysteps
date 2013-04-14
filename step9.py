@@ -24,7 +24,7 @@ class MoodTracker:
             fo.write(now_as_string + " " + result + "\n")
             
     def show_and_log_mood(self):
-        url = 'http://admin.webworks.se/pythoncourse/eurovision'
+        url = 'http://pythoncourse.webworks.se/eurovision'
         try:
             connection = urllib.urlopen(url)
             result = connection.read()
